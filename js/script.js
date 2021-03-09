@@ -76,7 +76,7 @@ function draw() {
 
         //draw coin
         ctx.drawImage(newcoin[i].texture, newcoin[i].x, newcoin[i].y, coinSize, coinSize);
-        newcoin[i].y += 1;
+        newcoin[i].y += 4;
 
         //adding new coin
         if (newcoin[i].y >= 100 && newcoin[i].create === true) {
